@@ -1,0 +1,224 @@
+.wrapper{
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+body{
+	background:#e6ecf0;
+}
+/****naigation****/
+header{
+	width: 100%;
+	background: #FFF;
+	height: 45px;
+
+}
+nav{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	height: 46px;
+	align-items: baseline;
+
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline;
+	padding: 9px;
+
+}
+li:hover{
+	color: #1da1f2;
+	border-bottom: 3px solid #1da1f2;
+}
+a{
+	text-decoration:none;
+	color: #66757f;
+	font-weight: 700;
+	font-size: 16px;
+}
+a:hover{
+	color: #1da1f2;
+}
+#navigation li a i{
+	padding-right: 5px;
+}
+#twitter-logo i{
+	color: #1da1f2;
+	font-size: 20px;
+}
+#search-box{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+form{
+	position: relative;
+}
+input[type=search]{
+	background-color: #f5f8fa;
+    border-radius: 21px;
+    border: 1px solid #e6ecf0;
+    color: #14171a;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 16px;
+    padding: 8px 32px 8px 12px;
+}
+#search-btn{
+	background-color: transparent;
+    color: #66757f;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 150px;
+    bottom: 5px;
+    border: none
+}
+.mini-avatar{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+.m-a{
+	height: 30px;
+	width: 30px;
+}
+#tweet-btn{
+	background:#1da1f2;
+	color: #FFF;
+	border-radius: 21px;
+	font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+}
+
+/*********hero***********/
+#hero{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	background-size: cover;
+	background-color: #1e1e1e;
+}
+
+#profile-img{
+	border-radius: 50%;
+	border-color: #FFF;
+	border-style: solid;
+	border-width: 4px;
+	position: absolute;
+	bottom: -90px;
+	left: 100px;
+}
+#full-name,#user-name{
+	position: absolute;
+	left: 100px;
+	bottom: -140px;
+}
+#full-name{
+	color: #242424;
+	font-weight: 700;
+	font-size: 25px;
+}
+#user-name{
+	color: #657786;
+	font-size: 13px;
+}
+/******************second-nav******************/
+.bg{
+	background: #FFF;
+	box-shadow: 1px 1px 3px #657786;
+	height: 56px;
+}
+#second-nav{
+	width: 90%;
+	float: right;
+	margin-right: 0;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 56px;
+	background: #FFF;
+}
+#second-nav ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+#second-nav ul li a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.gray{
+	color: #657786;
+	font-size: 14px;
+
+}
+
+#edit-btn{
+	background: transparent;
+	color: #657786;
+	font-size: 13px;
+	padding: 5px 10px;
+	border-radius: 21px;
+}
+/****************status*******************/
+.status-forma{
+	width: 35%;
+	margin: auto;
+	background: #B1E6DB;
+    margin-top: 10px;
+    position: relative;
+    height: 140px;
+    box-shadow: 1px 1px 2px #b1e6db;
+
+}
+textarea {
+	position: absolute;
+	left: 35px;
+	width: 90%;
+	margin-top: 10px;
+	border: #A3E4D7;
+	border-radius: 11px;
+	height: 80px;
+
+}
+#novi-status-btn{
+	position: absolute;
+    left: 390px;
+    top: 100px;
+    background: #1da1f2;
+    border-radius: 11px;
+    color: #FFF;
+    opacity: 0.7;
+    border: none;
+    padding: 5px 10px;
+}
+
+#statusi {
+	width: 35%;
+	margin: auto;
+	background-color: #fff;
+}
+
+.statusi {
+	width: 100%;
+	
+	background-color: #fff;
+	
+	padding: 30px 15px;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.statusi:nth-last-child(1) {
+	margin-bottom: 0;
+}

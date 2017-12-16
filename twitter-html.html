@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter - moj profil</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/twitterstyle.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+				<ul id="navigation">
+					<li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+					<li><a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i>Notifications</a></li>
+					<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>Messages</a></li>
+				</ul>
+				<div id="twitter-logo">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+				</div>
+				<div id="search-box">
+					<form>
+						<input type="search" id="mySearch" name="q" placeholder="Search Twitter">
+						<button id="search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</form>	
+					
+					<div class="m-a"><img class="mini-avatar" src="" alt=""></div>
+					<button id="tweet-btn">Tweet</button>
+				</div>
+			</nav>
+		</header>
+
+		<div id="hero">
+			<div class="profile-img-bg">
+				<img id="profile-img" src="" alt="">
+				<p id="full-name">Full Name</p>
+				<span id="user-name"></span>
+			</div>
+			
+		</div>
+		<div class="bg">
+			<div id="second-nav">
+				<ul>
+					<li><a href="#"><span class="gray">Tweets</span> <span class="number">10</span></a></li>
+					<li><a href="#"><span class="gray">Following</span> <span class="number">61</span></a></li>
+					<li><a href="#"><span class="gray">Followers</span> <span class="number">4</span></a></li>
+					<li><a href="#"><span class="gray">Likes</span> <span class="number">14</span></a></li>
+				</ul>
+				<button id="edit-btn">Edit profile</button>
+			</div>
+		</div>
+		<div class="status-forma">
+			<textarea id="novi-status"></textarea>
+			<div class="m-a"><img class="mini-avatar" src="" alt=""></div>
+			<button id="novi-status-btn">Tweet</button>
+		</div>
+		<section id="statusi">
+		</section>
+	</div>
+
+</body>
+<script src="js/profil-tw.js"></script>
+<script src="js/status-update.js"></script>
+</html>
